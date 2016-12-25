@@ -1,8 +1,10 @@
 ### Introduction
 
-This second programming assignment will require you to write an R
-function that is able to cache potentially time-consuming computations.
-For example, taking the mean of a numeric vector is typically a fast
+This the second programming assignment of the Coursera R Course.
+The assignment is to write a function to cache the inverse of a matrix.
+THe assignment code is based on the following example:
+
+Taking the mean of a numeric vector is typically a fast
 operation. However, for a very long vector, it may take too long to
 compute the mean, especially if it has to be computed repeatedly (e.g.
 in a loop). If the contents of a vector are not changing, it may make
@@ -62,7 +64,7 @@ function.
             m
     }
 
-### Assignment: Caching the Inverse of a Matrix
+### Assignment Requirements: Caching the Inverse of a Matrix
 
 Matrix inversion is usually a costly computation and there may be some
 benefit to caching the inverse of a matrix rather than computing it
